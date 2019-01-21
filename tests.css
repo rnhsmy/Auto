@@ -218,17 +218,25 @@ cursor: pointer;}
 
 }
 
+/* These classes control the arrow*/
 .arrow1 {
-  font-size: 30px;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 2.5vw;
+  bottom: 10%;
+
+
 }
 
-arrow1:hover {
+.arrow1:hover {
   opacity: .5;
 }
 
 .fas fa-arrow-down {
   text-decoration: none;
-  color: black;
+  color: white
 }
 
 .fas fa-arrow-down:hover {
@@ -723,6 +731,7 @@ It begins here. So yeah, let's begin, why are you still reading this, stop here!
 }
 */
 
+
 /* This is the loader for the pages*/
 #loader {
   position: absolute;
@@ -775,6 +784,7 @@ It begins here. So yeah, let's begin, why are you still reading this, stop here!
 #myDiv {
   display: none;
 }
+
 
 /*
 button {
@@ -912,14 +922,16 @@ button {
 
 
    .arrow1 {
-  font-size: 30px;
-  position: absolute;
-  left: 50%;
+     position: absolute;
+     margin: auto;
+     width: 100%;
+     text-align: center;
+     font-size: 3vm;
+     bottom: 10%;
    }
 
   .fas fa-arrow-down {
   text-decoration: none;
-  color: black;
   position: absolute;
   left: 40%;
  }

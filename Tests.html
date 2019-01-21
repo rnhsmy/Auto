@@ -7,12 +7,27 @@
     <link href="tests.css" rel="stylesheet" type="text/css"/>
     <link rel="icon" href="download(1).icon">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body onload="myFunction()">
+  <!--<div id="loader"></div>
+  <div style="display: none;" id="myDiv" class="animate-bottom" > <!--This is for the loader-->
 
 <!-- This is like an introduction-->
     <div class="parallax">
-      <div class="text">RYAN</div>
+      <div>
+        <div class="text">RYAN</div>
+      </div>
+
+      <div class="arrow1">
+          <a href="#scroll"><i href="#arrow"></i>
+            <i href="#arrow" class="fas fa-arrow-down" style="color:white;"></i></a>
+      </div>
+
     </div>
     <!--This is tells the user what tab they are on-->
   <div id="scroll"> <!-- You can also change it to "navbar"-->
@@ -127,6 +142,30 @@
        </div>
      </div>
 
+     <br><br><br><br><br>
+
+     <footer>
+       <div id="social-media">
+         <ul id="list" class="sm-grid">
+           <li>
+             <div class="insta">
+               <a href="https://www.instagram.com/rnhsmy/" target="_blank"><i id="insta" class='fab fa-instagram ' style='font-size:30px'></i></a>
+             </div>
+           </li>
+           <li>
+             <div class="twitter">
+               <a href="https://twitter.com/rnhsmy" target="_blank"><i id="twitter" class="fa fa-twitter" style="font-size:30px"></i></a>
+             </div>
+           </li>
+         </ul>
+       </div>
+
+        <p class="copyright">© Copyright 2019
+       <a href="#top" class="totop">Ryan Massey</a>
+      </p>
+     </div> <!-- This is for the loader-->
+     </footer>
+
 
 
 
@@ -134,4 +173,7 @@
 
 <!--This file is properly connected-->
 <script src="tests.js"></script>
+
+<!--This file is for the loaing effect-->
+<script src="loader.js"></script>
 </html>
